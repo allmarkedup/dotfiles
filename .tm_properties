@@ -1,0 +1,10 @@
+include = ".htaccess"
+fontName = "Monaco"
+fontSize = 13
+tabSize = 4
+softTabs = true
+showInvisibles = true
+
+[ *.yml ]
+softTabs = true
+tabSize = 2
