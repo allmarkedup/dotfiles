@@ -11,6 +11,7 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
+alias r="cd ~/Repos"
 alias g="git"
 alias tm='mate '
 alias o="open"
