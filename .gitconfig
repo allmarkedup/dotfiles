@@ -20,7 +20,7 @@
 [alias]
     st = status -sb
     co = commit
-    aa = git add . && git add -u
+    aa = !git add . && git add -u
     ch = checkout
     br = branch
     go = checkout -B
