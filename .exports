@@ -20,11 +20,11 @@ export MANPAGER="less -X"
 # Always enable colored `grep` output
 export GREP_OPTIONS="--color=auto"
 
+# Shortcut to homebrew prefix
+export HOMEBREW_PREFIX=$(brew --prefix)
+
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Change node path for Homebrew installed node
 export NODE_PATH="/usr/local/lib/node"
-
-# Add NPM modules and homebrew PHP version to path 
-export PATH="/usr/local/share/npm/bin:$(brew --prefix josegonzalez/php/php55)/bin:$PATH"
