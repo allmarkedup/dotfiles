@@ -6,16 +6,15 @@ New machine
 
 1. Install XCode:
 2. Install Homebrew: `ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`
-3. Install Git: `brew install git`
-4. Install this repo: `git clone https://github.com/allmarkedup/dotfiles.git && cd dotfiles && source bootstrap.sh`
-5. Run OSX defaults: `./.osx`
-6. Install Homebrew formulae: `./.brew`
-7. Install NPM: `curl http://npmjs.org/install.sh | sh`
+3. Install this repo and copy across dotfiles: `git clone https://github.com/allmarkedup/dotfiles.git && cd dotfiles && source bootstrap.sh`
+4. Run OSX defaults: `./.osx`
+5. Install Homebrew formulae: `./.brew`
+6. Install NPM: `curl http://npmjs.org/install.sh | sh`
 
-Updates:
+Update:
 --------
 
-1. Update repo
+1. Pull latest changes from repo
 2. Run `source bootstrap.sh`
 
 .extra
