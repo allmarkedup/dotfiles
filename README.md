@@ -1,5 +1,5 @@
-My dotfiles.
-============
+My dotfiles
+===========
 
 New machine
 -----------
@@ -14,8 +14,7 @@ New machine
 Update:
 --------
 
-1. Pull latest changes from repo
-2. Run `source bootstrap.sh`
+1. Run `source bootstrap.sh` from within this repo's root.
 
 .extra
 ------
