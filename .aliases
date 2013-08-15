@@ -17,6 +17,9 @@ alias tm='mate '
 alias o="open"
 alias oo="open ."
 
+# alias github hub command
+alias git=hub
+
 #start mysql
 alias startmysql='mysql.server start'
 

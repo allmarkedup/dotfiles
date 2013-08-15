@@ -16,6 +16,7 @@ brew install bash
 
 # Install other useful binaries
 brew install git
+brew install hub
 brew install mysql
 brew install node
 brew install bash-completion
