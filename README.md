@@ -19,18 +19,8 @@ Update:
 1. Run `source bootstrap.sh` from within this repo's root.
 2. Update: `update`.
 
-.extra
-------
+.personal
+----------
 
-For anything not committed to the repo.
-
-```
-# Git credentials
-GIT_AUTHOR_NAME="Mark Perkins"
-GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
-git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="mark@allmarkedup.com"
-GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
-git config --global user.email "$GIT_AUTHOR_EMAIL"
-```
+If you are forking this repo, PLEASE make sure you change the values in `.personal` or you will find yourself impersonating me :-) 
 

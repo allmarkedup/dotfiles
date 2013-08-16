@@ -21,6 +21,7 @@ brew install mysql
 brew install node
 brew install bash-completion
 brew install git-flow
+brew install closure-compiler
 
 # Install native apps
 brew tap phinze/homebrew-cask
