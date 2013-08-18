@@ -23,6 +23,12 @@ brew install bash-completion
 brew install git-flow
 brew install closure-compiler
 
+# upgrade and setup ruby via rbenv
+brew install rbenv ruby-build
+rbenv install 2.0.0-p247
+rbenv rehash
+rbenv global 2.0.0-p247
+
 # Install native apps
 brew tap phinze/homebrew-cask
 brew install brew-cask
