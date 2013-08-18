@@ -22,6 +22,22 @@ while [ ! -d .git -a ! -f '.this_is_root' -a `pwd` != "/" ]
     done
 }
 
+# Open new window with the same working dir
+function dup() {
+    pwd=`pwd`
+    osascript -e "tell application \"Terminal\" to do script \"cd $pwd; clear\"" > /dev/null
+}
+
+# Open new tab with the same working dir
+function tup() {
+    pwd=`pwd`
+    osascript -e "tell application \"Terminal\"" \
+        -e "tell application \"System Events\" to keystroke \"t\" using {command down}" \
+        -e "do script \"cd $pwd; clear\" in front window" \
+        -e "end tell"
+        > /dev/null
+}
+
 # Determine size of a file or total size of a directory
 function fs() {
 	if du -b /dev/null > /dev/null 2>&1; then
