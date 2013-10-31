@@ -37,7 +37,7 @@
 [apply]
     whitespace = nowarn
 [core]
-	editor = $HOME/bin/mate -w
+	editor = subl -w
 	excludesfile = ~/.gitignore
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"

@@ -14,6 +14,7 @@ alias p="cd ~/Projects"
 alias r="cd ~/Repos"
 alias g="git"
 alias tm='mate '
+alias s='subl '
 alias o="open"
 alias oo="open ."
 
