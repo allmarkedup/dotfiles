@@ -59,6 +59,9 @@ installcask vagrant
 installcask virtualbox
 installcask x-quartz
 
+# link up alfred to work with caskroom apps
+brew cask alfred link
+
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
