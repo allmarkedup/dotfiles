@@ -1,7 +1,7 @@
 # open apache host files for editing
 function edithosts() {
-    tm /etc/apache2/extra/httpd-vhosts.conf
-    tm /etc/hosts
+    subl /etc/apache2/extra/httpd-vhosts.conf
+    subl /etc/hosts
 }
 
 # Create a new directory and enter it
