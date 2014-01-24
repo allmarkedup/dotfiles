@@ -25,6 +25,7 @@ brew install node
 brew install bash-completion
 brew install git-flow
 brew install closure-compiler
+brew install autojump
 
 # upgrade and setup ruby via rbenv
 brew install rbenv ruby-build
