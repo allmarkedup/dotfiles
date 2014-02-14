@@ -1,2 +1,2 @@
 # Add NPM modules, homebrew PHP version and coreutils to path 
-export PATH="/usr/local/bin:/usr/local/share/npm/bin:$(brew --prefix josegonzalez/php/php55)/bin:$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$(brew --prefix josegonzalez/php/php55)/bin:$(brew --prefix coreutils)/libexec/gnubin:$PATH"
