@@ -69,13 +69,13 @@ brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
 brew install php55
 brew install php55-mcrypt
-brew tap tomschlick/homebrew-envoy
-brew install envoy
 
 # install php-related tools
 brew install composer
 brew install phpmyadmin
 brew install phpunit
+brew tap tomschlick/homebrew-envoy
+brew install envoy
 
 # Remove outdated versions from the cellar
 brew cleanup
