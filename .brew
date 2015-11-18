@@ -12,6 +12,7 @@ brew install bash-completion
 brew install git-flow
 brew install autojump
 brew install wget
+brew install thefuck
 
 brew install homebrew/php/composer
 
