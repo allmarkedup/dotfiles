@@ -9,73 +9,13 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
-# Install GNU core utilities (those that come with OS X are outdated)
-brew install coreutils
-echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew install findutils
-# Install Bash 4
-brew install bash
-
-# Install other useful binaries
-brew install git
-brew install hub
-brew install mysql
+# Install some handy stuff
 brew install node
 brew install bash-completion
 brew install git-flow
-brew install closure-compiler
 brew install autojump
 
-# upgrade and setup ruby via rbenv
-brew install rbenv ruby-build
-rbenv install 2.0.0-p247
-rbenv rehash
-rbenv global 2.0.0-p247
-
-# Install native apps
-brew tap phinze/homebrew-cask
-brew install brew-cask
-
-function installcask() {
-	brew cask install "${@}" 2> /dev/null
-}
-
-installcask alfred
-installcask codekit
-installcask dropbox
-installcask firefox
-installcask google-chrome
-installcask google-chrome-canary
-installcask imagealpha
-installcask imageoptim
-installcask instacast
-installcask kaleidoscope
-installcask mou
-installcask one-password
-installcask sequel-pro
-installcask skype
-installcask the-unarchiver
-installcask vagrant
-installcask virtualbox
-installcask x-quartz
-
-# link up alfred to work with caskroom apps
-brew cask alfred link
-
-# Install more recent versions of some OS X tools
-brew tap homebrew/dupes
-brew install homebrew/dupes/grep
-brew tap josegonzalez/homebrew-php
-brew install php55
-brew install php55-mcrypt
-
-# install php-related tools
 brew install composer
-brew install phpmyadmin
-brew install phpunit
-brew tap tomschlick/homebrew-envoy
-brew install envoy
 
 # Remove outdated versions from the cellar
 brew cleanup

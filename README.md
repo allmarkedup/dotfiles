@@ -11,7 +11,6 @@ New machine setup
 3. Install this repo and copy across dotfiles: `git clone https://github.com/allmarkedup/dotfiles.git && cd dotfiles && source bootstrap.sh`
 4. Set OSX defaults: `./.osx`
 5. Install Homebrew formulae: `./.brew`
-6. Install NPM: `curl http://npmjs.org/install.sh | sh`
 
 Update:
 -------
