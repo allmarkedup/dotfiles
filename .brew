@@ -11,6 +11,7 @@ brew install node
 brew install bash-completion
 brew install git-flow
 brew install autojump
+brew install wget
 
 brew install homebrew/php/composer
 
