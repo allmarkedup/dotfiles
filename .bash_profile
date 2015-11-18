@@ -40,5 +40,3 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
-eval "$(rbenv init -)"

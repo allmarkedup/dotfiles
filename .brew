@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# will trigger a java install if we don't have it already
-java -version
-
 # Make sure we’re using the latest Homebrew
 brew update
 
@@ -15,7 +12,7 @@ brew install bash-completion
 brew install git-flow
 brew install autojump
 
-brew install composer
+brew install homebrew/php/composer
 
 # Remove outdated versions from the cellar
 brew cleanup
